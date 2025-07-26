@@ -66,3 +66,5 @@ sudo chflags noschg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.
 ```
 sudo fdesetup authrestart
 ```
+
+### 8. When you get greyscreen stuck and reboot on initial mac os setup set region after success install, please make sure disable first intel wifi and bt kext on config then reinstall your mac os (optional delete the prev language on nvram setting) 
